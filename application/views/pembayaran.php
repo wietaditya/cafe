@@ -73,24 +73,23 @@
 											<label for="kecamatan" class="text-start">Kecamatan</label>
 											<select name="kecamatan" id="kecamatan" class="form-control">
 												<option value="" selected disabled>-Pilih Kecamatan-</option>
-												<option value="10000">Gedangsari</option>
-												<option value="10000">Girisubo</option>
-												<option value="10000">Karangmojo</option>
-												<option value="10000">Ngawen</option>
-												<option value="10000">Nglipar</option>
-												<option value="10000">Paliyan</option>
-												<option value="10000">Panggang</option>
-												<option value="10000">Patuk</option>
-												<option value="25000">Playen</option>
-												<option value="10000">Purwosari</option>
-												<option value="10000">Rongkop</option>
-												<option value="10000">Saptosari</option>
-												<option value="10000">Semanu</option>
-												<option value="10000">Semin</option>
-												<option value="10000">Tanjungsari</option>
-												<option value="10000">Tanjungsari</option>
-												<option value="10000">Tepus</option>
-												<option value="10000">Wonosari</option>
+												<option value="55000">Gedangsari</option>
+												<option value="120000">Girisubo</option>
+												<option value="35000">Karangmojo</option>
+												<option value="65000">Ngawen</option>
+												<option value="35000">Nglipar</option>
+												<option value="30000">Paliyan</option>
+												<option value="90000">Panggang</option>
+												<option value="45000">Patuk</option>
+												<option value="20000">Playen</option>
+												<option value="90000">Purwosari</option>
+												<option value="85000">Rongkop</option>
+												<option value="60000">Saptosari</option>
+												<option value="35000">Semanu</option>
+												<option value="75000">Semin</option>
+												<option value="60000">Tanjungsari</option>
+												<option value="75000">Tepus</option>
+												<option value="15000">Wonosari</option>
 											</select>
 										</div>
 										<div class="form-group m-2" id="titik_form">
