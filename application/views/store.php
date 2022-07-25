@@ -44,7 +44,6 @@
 											<div class="btn-grup mt-2">
 												<a href="<?php echo base_url().'tambah_ke_keranjang/'.$pdk->id ?>" class="btn btn-sm btn-primary">Tambah ke Keranjang</a>
 												<a href="<?php echo base_url().'detail_product/'.$pdk->id ?>" class="btn btn-sm btn-success">Detail</a>
-												
 											</div>
 										</div>
 									</div>
