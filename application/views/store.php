@@ -25,7 +25,7 @@
                 <span class="site-heading-lower">Roetin Coffee Shop</span>
             </h1>
         </header>
-        <section class="page-section">
+        <!-- <section class="page-section">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12 mx-auto">
@@ -56,7 +56,33 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+   		<section class="page-section">
+            <div class="container">
+                <div class="row">
+					<?php foreach ($produk as $pdk) : ?>
+						<div class="col-md-4">
+					<div class="card m-4 p-2">
+						<img src="assets/images/<?= $pdk->gambar ?>" class="card-img-top" alt="product-04" style="width: 18rem;">
+						<div class="card-body">
+							<h5 class="card-title"><?= $pdk->nama ?></h5>
+							<small class="card-text"><?= $pdk->keterangan ?></small>
+							<br>
+							<span class="badge rounded-pill bg-success mt-2">Rp <?= number_format($pdk->harga,0,',','.') ?></span>
+							<br>
+							<div class="btn-grup mt-2">
+								<a href="<?php echo base_url().'tambah_ke_keranjang/'.$pdk->id ?>" class="btn btn-sm btn-primary">Tambah ke Keranjang</a>
+								<a href="<?php echo base_url().'detail_product/'.$pdk->id ?>" class="btn btn-sm btn-success">Detail</a>
+							</div>
+						</div>
+					</div>
+					</div>
+					<?php endforeach; ?>
+				</div>
+			</div>
+		</section>
+
 
         <footer class="footer text-faded text-center py-5">
 			<div class="container"><p class="m-0 small">Copyright &copy; Roetin Coffee 2022</p></div>

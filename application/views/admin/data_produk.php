@@ -243,7 +243,11 @@
 					</div>
 					<div class="form-group">
 						<label for="kategori">Kategori</label>
-						<input type="text" name="kategori" class="form-control">	
+						<select name="kategori" id="kategori" class="form-control">
+							<?php foreach($kategori as $kat) : ?>
+								<option value="<?= $kat->nama ?>"><?= $kat->nama ?></option>
+							<?php endforeach; ?>
+						</select>
 					</div>
 					<div class="form-group">
 						<label for="harga">Harga</label>

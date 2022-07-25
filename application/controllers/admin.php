@@ -20,6 +20,7 @@ class Admin extends CI_Controller {
 
 	public function data_produk() {
 		$data['produk'] = $this->model_produk->tampil_data()->result();
+		$data['kategori'] = $this->model_kategori->tampil_data()->result();
 		$this->load->view('admin/data_produk', $data);
 	}
 
